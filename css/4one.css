@@ -8,12 +8,12 @@ html {
 
 @font-face {
     font-family: 'Alfa Slab One';
-    src: url('/fonts/alfaslabone-regular.eot');
-    src: url('/fonts/alfaslabone-regular.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/alfaslabone-regular.woff2') format('woff2'),
-         url('/fonts/alfaslabone-regular.woff') format('woff'),
-         url('/fonts/alfaslabone-regular.ttf') format('truetype'),
-         url('/fonts/alfaslabone-regular.svg#alfa_slab_oneregular') format('svg');
+    src: url('{{ site.baseurl }}/fonts/alfaslabone-regular.eot');
+    src: url('{{ site.baseurl }}/fonts/alfaslabone-regular.eot?#iefix') format('embedded-opentype'),
+         url('{{ site.baseurl }}/fonts/alfaslabone-regular.woff2') format('woff2'),
+         url('{{ site.baseurl }}/fonts/alfaslabone-regular.woff') format('woff'),
+         url('{{ site.baseurl }}/fonts/alfaslabone-regular.ttf') format('truetype'),
+         url('{{ site.baseurl }}/fonts/alfaslabone-regular.svg#alfa_slab_oneregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -109,10 +109,10 @@ section p {
 }
 
 .moving {
-    background-image: url('../img/moving-1x.jpg');
+    background-image: url('{{ site.baseurl }}/img/moving-1x.jpg');
 
-    background-image: -webkit-image-set( url('../img/moving-1x.jpg') 1x,
-                                         url('../img/moving-2x.jpg') 2x );
+    background-image: -webkit-image-set( url('{{ site.baseurl }}/img/moving-1x.jpg') 1x,
+                                         url('{{ site.baseurl }}/img/moving-2x.jpg') 2x );
     background-repeat: no-repeat;
     margin-top: 0;
     margin-bottom: 0;
