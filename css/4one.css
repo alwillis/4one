@@ -6,29 +6,6 @@ html {
     box-sizing: inherit;
 }
 
-
-@font-face {
-    font-family: 'Source Sans Pro Light';
-    src: url('/fonts/sourcesanspro-light.eot');
-    src: url('/fonts/sourcesanspro-light.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/sourcesanspro-light.woff2') format('woff2'),
-         url('/fonts/sourcesanspro-light.woff') format('woff'),
-         url('/fonts/sourcesanspro-light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Source Sans Pro Black';
-    src: url('/fonts/sourcesanspro-black.eot');
-    src: url('/fonts/sourcesanspro-black.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/sourcesanspro-black.woff2') format('woff2'),
-         url('/fonts/sourcesanspro-black.woff') format('woff'),
-         url('/fonts/sourcesanspro-black.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     margin: 0 auto;
     width: 64em; /* 1024px / 16px */
