@@ -1,0 +1,68 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    <header>
+        <p>Moving. Cleaning. Catering. Utility.</p>
+        <p class="blah"><em>4</em> Services. <em>ONE</em> Company.</p>
+    </header>
+
+    <main>
+        <section class="moving">
+            <h1>Moving</h1>
+            <h2>Strong, dependable &amp; reliable.</h2>
+            <p>Our relocation services provide you with the convenient and stress free moving experience you deserve.</p>
+            <form action="">
+                <button name="button">View our rates</button>
+            </form>
+        </section>
+
+        <section class="cleaning">
+            <h1>Cleaning</h1>
+            <h2>Let your space shine.</h2>
+            <p>From home to industrial, our dedicated staff provides unmatchable cleaning services for any space.</p>
+            <form action="">
+                <button name="button">Contact Us</button>
+            </form>
+        </section>
+
+        <section class="catering">
+            <h1>Catering</h1>
+            <h2>A premium experience.</h2>
+            <p>We partner with local chefs to offer a delicious, healthy, and unforgettable meal.</p>
+            <button name="button">View our menu</button>
+        </section>
+
+        <section class="utility">
+            <h1>Utility</h1>
+            <h2>Experience, expertise &amp; dedication</h2>
+            <p>Our team offers the perfect staffing solutions to make your function or event a success.</p>
+            <button name="button">View our rates</button>
+        </section>
+
+        <section class="contact">
+            <p>We would love to work with you.</p>
+            <p class="call">Call us</p>
+            <p><a class="phone-number" href="tel:6172028179">617-202-8179</a></p>
+            <p>or send us an <a class="email" href="#" style="color: #003CC3; text-decoration:none;";>email</a></p>
+        </section>
+
+        <section class="about">
+            <img src="{{ site.baseurl}}/img/4-one-logo.png" alt="4One Services logo" />
+            <p>4ONE Services is a Boston-based family-run business with over 30 years of experience in providing Moving, Cleaning, Catering and Utility services within the New England Area. We offer professional, reliable services at competitive prices.</p>
+        </section>
+    </main>
+    <footer>
+        <p><small>&copy; Copyright 2015 <a href="#">4ONE Services</a> &amp; <a href="http://thecultivators.co">The Cultivators Collective</a></small></p>
+    </footer>
+
+    <script type="application/ld+json">
+        {% include 4one.json %}
+    </script>
+</body>
+</html>
