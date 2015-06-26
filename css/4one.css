@@ -14,7 +14,7 @@ body {
 
 h1 {
     font-family: 'Alfa Slab One', serif;
-    font-size: 37px;
+    font-size: 2.3125rem; /* 37px ÷ 16px */
     font-weight: normal;
     text-transform: uppercase;
     padding-top: 1em;
@@ -28,20 +28,20 @@ header {
 }
 header > p {
     font-family: 'Alfa Slab One';
-    font-size: 18px;
+    font-size: 1.125rem; /* 18px ÷ 16px */
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
 }
 header .blah {
     font-family: "Source Sans Pro";
-    font-size: 32px;
+    font-size: 2rem; /* 32px ÷ 16px */
     font-weight: 900;
 }
 
 header em {
     font-family: "Source Sans Pro";
-    font-size: 32px;
+    font-size: 2rem; /* 32px ÷ 16px */
     font-style: normal;
     font-weight: 900;
     color: #003cc3;
@@ -60,7 +60,7 @@ section h2 {
 }
 section h2 {
     font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 900;
     text-transform: uppercase;
     margin-top: 0;
@@ -69,7 +69,7 @@ section h2 {
 
 section p {
     font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
-    font-size: 25px;
+    font-size: 1.5625rem; /* 25px ÷ 16px */
     font-weight: 300;
     margin-top: 0;
     margin-bottom: 0;
@@ -121,14 +121,14 @@ section p {
 .call, .email {
     color: #003CC3;
     font-family: 'Source Sans Pro';
-    font-size: 25px;
+    font-size: 1.5625rem; /* 25px ÷ 16px */
     font-weight: 900;
 }
 
 .phone-number {
     color: black;
     font-family: 'Alfa Slab One';
-    font-size: 37px;
+    font-size: 2.3125rem; /* 37px ÷ 16px */
     text-decoration: none;
 }
 
@@ -136,7 +136,7 @@ section p {
     background-color: #003CC3;
     color: white;
     font-family: 'Source Sans Pro';
-    font-size: 12.5px;
+    font-size: 0.78125rem; /* 12.5px ÷ 16px */
     font-weight: 300;
 }
 
