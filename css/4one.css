@@ -49,8 +49,8 @@ header em {
 
 section {
     color: white;
-    width: 64em;
-    height: 16.125em;
+    width: 90%;
+    height: 258px;
     text-align: center;
 }
 
@@ -80,36 +80,36 @@ section p {
 }
 
 .moving {
-    background-image: url(../img/moving-1x.jpg);
+    background-image: url('../img/moving-1x.jpg');
 
-    background-image: -webkit-image-set( url(../img/moving-1x.jpg) 1x,
-                                         url(../img/moving-2x.jpg) 2x );
+    background-image: -webkit-image-set( url('../img/moving-1x.jpg') 1x,
+                                         url('../img/moving-2x.jpg') 2x );
     background-repeat: no-repeat;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .cleaning {
-	background-image: url(../img/cleaning-1x.jpg);
+	background-image: url('../img/cleaning-1x.jpg');
 
-    background-image: -webkit-image-set( url(../img/cleaning-1x.jpg) 1x,
-                                         url(../img/cleaning-2x.jpg) 2x );
+    background-image: -webkit-image-set( url('../img/cleaning-1x.jpg') 1x,
+                                         url('../img/cleaning-2x.jpg') 2x );
     background-repeat: no-repeat;
 }
 
 .catering {
-	background-image: url(../img/catering-1x.jpg);
+	background-image: url('../img/catering-1x.jpg');
 
-    background-image: -webkit-image-set( url(../img/catering-1x.jpg) 1x,
-                                         url(../img/catering-2x.jpg) 2x );
+    background-image: -webkit-image-set( url('../img/catering-1x.jpg') 1x,
+                                         url('../img/catering-2x.jpg') 2x );
     background-repeat: no-repeat;
 }
 
 .utility {
-	background-image: url(../img/utility-1x.jpg);
+	background-image: url('../img/utility-1x.jpg');
 
-    background-image: -webkit-image-set( url(../img/utility-1x.jpg) 1x,
-                                         url(../img/utility-2x.jpg) 2x );
+    background-image: -webkit-image-set( url('../img/utility-1x.jpg') 1x,
+                                         url('../img/utility-2x.jpg') 2x );
     background-repeat: no-repeat;
 }
 
